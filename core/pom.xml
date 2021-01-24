@@ -86,12 +86,12 @@ Import-Package: javax.annotation;version=0.0.0,*
 			<scope>test</scope>
 		</dependency>
 		<dependency>
-					<groupId>com.adobe.aem</groupId>
-					<artifactId>uber-jar</artifactId>
-					<version>6.5.1</version>
-					<classifier>apis</classifier>
-					<scope>provided</scope>
-				</dependency>
+			<groupId>com.adobe.aem</groupId>
+			<artifactId>uber-jar</artifactId>
+			<version>6.5.1</version>
+			<classifier>apis</classifier>
+			<scope>provided</scope>
+		</dependency>
 
 		<!-- Testing -->
 		<dependency>
@@ -136,6 +136,26 @@ Import-Package: javax.annotation;version=0.0.0,*
 			<version>1.4.4</version>
 			<scope>test</scope>
 		</dependency>
+		<!-- https://mvnrepository.com/artifact/com.konghq/unirest-java -->
+		<dependency>
+			<groupId>com.konghq</groupId>
+			<artifactId>unirest-java</artifactId>
+			<version>3.10.00</version>
+			<scope>provided</scope>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/com.adobe.experiencecloud.ecid/ecid-service -->
+		<dependency>
+			<groupId>com.adobe.experiencecloud.ecid</groupId>
+			<artifactId>ecid-service</artifactId>
+			<version>1.0.0</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/io.github.jamsesso/json-logic-java -->
+		<dependency>
+			<groupId>io.github.jamsesso</groupId>
+			<artifactId>json-logic-java</artifactId>
+			<version>1.0.3</version>
+		</dependency>
+
 	</dependencies>
 
 	<!-- Additional Profiles for Cloud Service vs. 6.x -->
@@ -324,7 +344,7 @@ Import-Package: javax.annotation;version=0.0.0,*
 					<scope>provided</scope>
 				</dependency>
 
-		
+
 			</dependencies>
 		</profile>
 	</profiles>
